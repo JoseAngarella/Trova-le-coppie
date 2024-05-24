@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="237.0" prefWidth="291.0" spacing="20.0" style="-fx-background-color: RoyalBlue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.jose.controller.PrimaryController">
+   <children>
+      <Line endX="164.0" startX="-100.0" strokeWidth="4.0" />
+      <Label text="Indovina Le Coppie">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="29.0" />
+         </font></Label>
+      <Line endX="155.5" startX="-100.0" strokeWidth="4.0" />
+      <Button fx:id="primaryButton" lineSpacing="5.0" onAction="#switchToSecondary" style="-fx-background-color: white;" text="Inizia partita" textFill="#0543ff">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="30.0" />
+         </VBox.margin></Button>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

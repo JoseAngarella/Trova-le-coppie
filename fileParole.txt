@@ -1,0 +1,8 @@
+Palla
+Aereo
+Pesce
+Albero
+Leone
+Fiume
+Penna
+Sasso
